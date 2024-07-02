@@ -1,0 +1,22 @@
+{
+  "name": "parcel-practic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchousser/Parcel-Practic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchousser/Parcel-Practic/issues"
+  },
+  "homepage": "https://github.com/sanchousser/Parcel-Practic#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
