@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parcel Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
+
 <body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, iste nam rerum, minus qui dolorem, obcaecati atque recusandae ratione ipsum accusantium temporibus! Reiciendis nemo debitis quia tenetur animi, aspernatur a.</h1>
+
+    <section class="hero">
+        <video class="hero__video" src="./images/video.mp4"></video>
+    </section>
+
+    <section class="content">
+        <div class="main__content">
+            <h1 class="main__title">Escape to Ultimate Relaxation.</h1>
+            <p class="main__text">
+                Welcome to our serene SPA hotel, a sanctuary designed for ultimate
+                relaxation. Nestled in picturesque surroundings, our luxurious
+                amenities and personalized services ensure a rejuvenating experience
+                for every guest.
+            </p>
+        </div>
+        <!-- images -->
+        <ul class="content__list">
+            <li class="content__item">
+                <img class="content__image" src="./images/room.jpg" alt="hotel room" width="400" />
+                <div class="content__info">
+                    <p class="content__title">Rooms</p>
+                    <p class="content__text">
+                        Our luxurious rooms offer a perfect blend of comfort and elegance,
+                        featuring plush bedding and modern decor. Each room boasts
+                        stunning views, a private balcony, and state-of-the-art amenities
+                        to enhance your stay. Experience unparalleled relaxation in our
+                        spacious suites, designed to provide a serene and indulgent
+                        retreat.
+                    </p>
+                    <a href="#" class="content__link">read more</a>
+                </div>
+            </li>
+            <li class="content__item">
+                <img class="content__image" src="./images/pool.jpg" alt="hotel room" width="400" />
+                <div class="content__info">
+                    <p class="content__title">Pool</p>
+                    <p class="content__text">
+                        Our hotel features a stunning infinity pool with breathtaking
+                        views of the surrounding landscape. Enjoy a refreshing swim or
+                        relax on the comfortable lounge chairs by the poolside. The pool
+                        area is complemented by a poolside bar, offering a selection of
+                        refreshing drinks and light snacks for a perfect day of leisure.
+                    </p>
+                    <a href="#" class="content__link">read more</a>
+                </div>
+            </li>
+        </ul>
+
+        <form class="feedback-form">
+            <label>
+                name
+                <input type="text" name="username">
+            </label>
+            <label>
+                email
+                <input type="email" name="email">
+            </label>
+            <textarea name="message" rows="8"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <script type="module" src="./app.js"></script>
 </body>
+
 </html>
